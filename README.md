@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/mariamihai/fm-social-proof-section)
-- [Live site URL](https://mariamihai.github.io/fm-3-column-preview-card-component/) - TODO
+- [Live site URL](https://mariamihai.github.io/fm-social-proof-section)
 
 ## My process
 
