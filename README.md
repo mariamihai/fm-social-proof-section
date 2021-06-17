@@ -20,7 +20,15 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 
-### Screenshot (TODO)
+### Screenshot
+
+Desktop implementation:
+
+<img src="./images/desktop-screenshot.png" alt="Desktop screenshot">
+
+Mobile implementation:
+
+<img src="./images/mobile-screenshot.png" alt="Desktop screenshot" width="260">
 
 ### Links
 
