@@ -9,10 +9,13 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/favicon-32x32.png"
     />
 
     <title>Frontend Mentor | Social proof section</title>
+
+
+    <link rel="stylesheet" href="./css/styles.css" />
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -26,36 +29,108 @@
     </style>
   </head>
   <body>
-    10,000+ of our users love our products.
+    <div class="card">
+      <section class="description">
+        <h1 class="title">10,000+ of our users love our products.</h1>
+        <div class="product-description">We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.</div>
+      </section>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+      <section class="ratings">
+        <div class="rating r1">
+          <div class="stars-rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+          </div>
+          <div class="rating-description">Rated 5 Stars in Reviews</div>
+        </div>
+        <div class="rating r2">
+          <div class="stars-rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+          </div>
+          <div class="rating-description">Rated 5 Stars in Report Guru</div>
+        </div>
+        <div class="rating r3">
+          <div class="stars-rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+            <img src="./assets/icon-star.svg" alt="5 stars rating">
+          </div>
+          <div class="rating-description">Rated 5 Stars in BestTech</div>
+        </div>
+      </section>
+
+      <!-- <div class="break"></div>  -->
+
+      <section class="comments">
+        <div class="comment c1">
+          <div class="user-data">
+            <img src="./assets/image-colton.jpg" alt="Image Colton">
+
+            <div class="user-text">
+              <div class="user">Colton Smith </div>
+              <div class="verified">Verified Buyer</div>
+            </div>
+          </div>
+          <div class="comment-description">"We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"</div>
+        </div>
+        <div class="comment c2">
+          <div class="user-data">
+            <img src="./assets/image-irene.jpg" alt="Image Irene">
+
+            <div class="user-text">
+              <div class="user">Irene Roberts</div>
+              <div class="verified">Verified Buyer</div>
+            </div>
+          </div>
+          <div class="comment-description">"Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."</div>
+        </div>
+        <div class="comment c3">
+          <div class="user-data">
+            <img src="./assets/image-anne.jpg" alt="Image Anne">
+            <div class="user-text">
+              <div class="user">Anne Wallace </div>
+              <div class="verified">Verified Buyer</div>
+            </div>
+          </div>
+          <div class="comment-description">"Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!"</div>
+        </div>
+      </section>
+    </div>
 
     <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      <div>
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA"
+          target="_blank"
+        >
+          <img src="assets/logo-desktop.svg" alt="Go to Frontend Mentor" /> </a
+        >.
+      </div>
+      <div>
+        Coded by
+        <a
+          href="https://github.com/mariamihai/fm-social-proof-section"
+          target="_blank"
+        >
+          <img src="assets/GitHub-Mark-32px.png" alt="Go to GitHub profile" />
+          mariamihai</a
+        >.
+      </div>
     </div>
   </body>
 </html>

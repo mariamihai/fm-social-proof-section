@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  font-size: 15px;
+}
+
+.card {
+  margin: 1em;
+}
+
+.card .description {
+  text-align: center;
+  padding: 1em 0.5em;
+}
+
+.card .description .title {
+  color: var(--very-dark-magenta);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card .description .product-description {
+  color: var(--dark-grayish-magenta);
+}
+
+.card .ratings {
+  text-align: center;
+}
+
+.card .ratings .rating {
+  margin-bottom: 1em;
+  padding: 1em;
+  background-color: var(--light-grayish-magenta);
+  border-radius: 0.5em;
+}
+
+.card .ratings .rating .stars-rating {
+  padding-bottom: 0.5em;
+}
+
+.card .ratings .rating .rating-description {
+  font-weight: bold;
+  color: var(--very-dark-magenta);
+}
+
+.card .comments .comment {
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  padding: 1.5em;
+  background-color: var(--very-dark-magenta);
+}
+
+.card .comments .comment .user-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 1em;
+}
+
+.card .comments .comment .user-data img {
+  border-radius: 50%;
+  width: 2em;
+}
+
+.card .comments .comment .user-data .user-text {
+  padding-left: 1em;
+}
+
+.card .comments .comment .user-data .user-text .user {
+  color: var(--white);
+}
+
+.card .comments .comment .user-data .user-text .verified {
+  color: var(--soft-pink);
+}
+
+.card .comments .comment .comment-description {
+  color: var(--light-grayish-magenta);
+}
+
+.attribution {
+  padding: 1em 1.5em 3em 1.5em;
+  height: 40px;
+  background-color: var(--light-grayish-magenta);
+  border-radius: 2em 0 4em 0;
+}
+
+.attribution a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.attribution img {
+  padding-left: 1em;
+}
+
+@media only screen and (min-width: 400px) {
+  .attribution {
+    padding: 1em 1.5em 4em 1.5em;
+    position: absolute;
+    right: 0;
+    max-width: 350px;
+    height: 25px;
+    border-radius: 2em 0 4em 0;
+  }
+  .attribution img {
+    padding-left: 1em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin: 6em 2em;
+  }
+  .card .description {
+    max-width: 50%;
+  }
+  .card .ratings {
+    padding: 4em 5em 2em 2em;
+  }
+  .card .ratings .rating {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1em;
+  }
+  .card .ratings .rating .stars-rating {
+    padding: 0.1em;
+    margin-right: 2em;
+  }
+  .card .ratings .r2 {
+    margin-left: 1.5em;
+    margin-right: -1.5em;
+  }
+  .card .ratings .r3 {
+    margin-left: 3em;
+    margin-right: -3em;
+  }
+  .card .comments {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .card .comments .comment {
+    margin: 0.5em;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .card .comments .c2 {
+    margin-top: 1.5em;
+  }
+  .card .comments .c3 {
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .card {
+    margin: 6em 10em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
